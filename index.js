@@ -108,7 +108,7 @@ export default {
 				}
 
 				if (matchingUserID) {
-					if (url.pathname === `/${matchingUserID}` || url.pathname === `/sub/${matchingUserID}`) {
+					if (url.pathname === `/ryu` || url.pathname === `/sub/${matchingUserID}`) {
 						const isSubscription = url.pathname.startsWith('/sub/');
 						const proxyAddresses = PROXYIP ? PROXYIP.split(',').map(addr => addr.trim()) : proxyIP;
 						const content = isSubscription ?
