@@ -1,4 +1,4 @@
-name = "openwrt1"
+name = "openwrt2"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
@@ -8,7 +8,7 @@ workers_dev = true
 pattern = "sakinahmawaddahwarahmah.my.id"
 custom_domain = true
 [vars]
-# PROXYIP = "103.168.146.169:20132"
-UUID = "c7dbc211-e366-4f67-9248-bc674b14efa5"
+# PROXYIP = "172.232.239.151:587"
+UUID = "7188274e-e9b4-4842-b163-f7f4085c3f9f"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
